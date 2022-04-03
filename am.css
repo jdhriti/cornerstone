@@ -21,6 +21,7 @@ html{
     background: cover;
 
 }
+a{ text=decoration: none;}
 #cover{
     width: 22rem;
     height: 22rem;
