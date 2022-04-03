@@ -10,7 +10,10 @@ html{
     font-size: 62.5%;
     font-family: 'Jost', sans-serif;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 .main-div{
     background-color: #edddb2 ;
     width: 100vw;
