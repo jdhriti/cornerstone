@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=League+Script&family=Libre+Baskerville&family=Montserrat:wght@100&family=Rock+3D&family=Work+Sans:wght@100&display=swap');
+
+
+*, *::before , *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Jost', sans-serif;
+}
+
+.main-div{
+    background-color: #000000  ;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: url(images/back2.jpg);
+    /* background-repeat: none;
+    background: cover; */
+
+}
+.img-container{
+    width: 60rem;
+    height: 65rem;
+    border-radius: 2rem;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0,0,0,0.2);
+    padding: 3rem;
+    text-align: center;
+    background-color: #edddb2;
+    
+   
+}
+.img-container #title{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    color: #171717;
+    margin: 1rem 0 0.5rem 0;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 2rem 8rem 0rem 0.2rem rgba(0,0,0,0.3);
+}
+.img-container #sub{
+    color: #696969;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    font-size: 1.4rem;
+    margin:1rem 0 3rem 0;
+    font-weight: 300;
+}
+.imgdiv{
+    width: 25rem;
+    height: 25rem;
+    margin: auto;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 1.4rem 3rem 0.5rem rgba(0,0,0,0.4);
+    object-fit: cover;
+    
+}
+#img1{
+    float: left;
+}
+#img2{
+  
+    float: right;
+}
+#img3{
+    margin: 0rem 0rem 0rem 14rem;
+   
+}
+#img1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+         
+} 
+#img2:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+            
+}
+#img3:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+       
+}
+
+
+@media (max-width : 768px){
+    .img-container{
+        width: 32rem;
+        height: 48rem;
+    }
+    .imgdiv{
+        width: 12rem;
+        height: 12rem;
+    }
+    #img1{
+        float: left;
+        
+    }
+    #img2{
+      
+        float: right;
+    }
+    #img3{
+        margin: 0 0 0 7.3rem;
+       
+    }
+}
