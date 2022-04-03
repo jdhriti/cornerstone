@@ -17,6 +17,7 @@ html{
     height: 100vh;
     display: grid;
     place-items: center;
+     background: url(images/back2.jpg);
 
 }
 .img-container{
