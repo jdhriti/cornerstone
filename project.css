@@ -204,6 +204,28 @@ html{
     border-radius: 50%;
     
 }
+@media (max-width : 768px){
+    .img-container{
+        width: 32rem;
+        height: 48rem;
+    }
+    .imgdiv{
+        width: 12rem;
+        height: 12rem;
+    }
+    #img1{
+        float: left;
+        
+    }
+    #img2{
+      
+        float: right;
+    }
+    #img3{
+        margin: 0 0 0 7.3rem;
+       
+    }
+}
 
 
  */
